@@ -1,17 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
-Public training script for prepared graph inputs.
-
-Notes
------
-1. This public script assumes that graph samples have already been prepared offline.
-2. It does NOT include the full raw-data preprocessing pipeline.
-3. Model selection is based on validation AUC.
-4. Final metrics are computed with a fixed probability threshold (default: 0.5).
-"""
-
 import argparse
 from pathlib import Path
 
